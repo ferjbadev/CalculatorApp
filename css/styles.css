@@ -1,0 +1,43 @@
+/* Styles for the main container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for input fields */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Styles for operation buttons */
+.btn-primary {
+  margin-right: 10px;
+}
+
+/* Styles for the result */
+#resultado {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Title styles */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+}
+
+/* More styles */
+.operation-buttons {
+  text-align: center;
+}

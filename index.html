@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Include Bootstrap CSS from a CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+  <title>Calculator</title>
+  
+  <!-- Include custom CSS for additional styling -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Calculator App</h2>
+    
+    <!-- Calculator Form -->
+    <form id="forma">
+      <!-- Input for the first number -->
+      <div class="mb-3">
+        <label for="operandoA">Enter First Number</label>
+        <input type="number" class="form-control" placeholder="Number Here" id="operandoA" />
+      </div>
+      <!-- Input for the second number -->
+      <div class="mb-3">
+        <label for="operandoB">Enter Second Number</label>
+        <input type="number" class="form-control" placeholder="Number here" id="operandoB" />
+      </div>
+    </form>
+    
+    <!-- Buttons for Arithmetic Operations -->
+    <div class="row">
+      <div class="col">
+        <!-- Button for addition -->
+        <button type="submit" class="btn btn-primary" onclick="sumar()">+</button>
+      </div>
+      <div class="col">
+        <!-- Button for subtraction -->
+        <button type="submit" class="btn btn-primary" onclick="restar()">-</button>
+      </div>
+      <div class="col">
+        <!-- Button for multiplication -->
+        <button type="submit" class="btn btn-primary" onclick="multiplicar()">*</button>
+      </div>
+      <div class="col">
+        <!-- Button for division -->
+        <button type="submit" class="btn btn-primary" onclick="dividir()">/</button>
+      </div>
+    </div>
+    
+    <!-- Display the result -->
+    <div id="resultado"></div>
+  </div>
+  
+  <!-- Include Bootstrap JavaScript from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  <!-- Include your custom JavaScript file -->
+  <script src="js/app.js"></script>
+</body>
+</html>
